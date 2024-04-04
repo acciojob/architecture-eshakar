@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+*{
+	width: 1100px;
+	background-color: lightgreen;
+}
+.imageContainer > img{
+	width: 400px;
+	height: 400px;
+	margin: 15px;
+	position: relative;
+	display: block;
+}
+tr > td > img{
+	width: 200px;
+	margin: 15px;
+}
+.s-child{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;	
+}
+.s-child > ol{
+	display: inline-block;
+	text-align: center;
+}
+td > span{
+	margin: 15px;
+}
+a{
+	top: 10px;
+	left: 150px;
+	position: relative;
+}
+#anch{
+	top: 1px;
+	left: 10px;
+	position: relative;
+}
